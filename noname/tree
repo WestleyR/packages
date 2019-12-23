@@ -4,7 +4,7 @@
 # Please see: http://mama.indstate.edu/users/ice/tree/ for more details on this package.
 #
 
-USR_NAME="no-name"
+USR_NAME="noname"
 PKG_NAME="tree"
 NAME="tree"
 PKG_VERSION="1.8.0"
