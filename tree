@@ -1,0 +1,21 @@
+#!/bin/sh
+
+#
+# Please see: http://mama.indstate.edu/users/ice/tree/ for more details on this package.
+#
+
+USR_NAME="no-name"
+PKG_NAME="tree"
+NAME="tree"
+PKG_VERSION="1.8.0"
+
+TARBALL="http://mama.indstate.edu/users/ice/tree/src/tree-1.8.0.tgz"
+SHA256SUM="715d5d4b434321ce74706d0dd067505bb60c5ea83b5f0b3655dae40aa6f9b7c2"
+
+UNTAR_DIR="${PKG_NAME}-${PKG_VERSION}"
+
+# Load the prefix
+. load_gpack ${PKG_NAME}
+
+INSTALL_CMD="make && make install prefix=${gpack_prefix}"
+
