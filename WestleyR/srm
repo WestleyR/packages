@@ -16,15 +16,15 @@ UNTAR_DIR="${PKG_NAME}-${PKG_VERSION}"
 
 # Linux Ubuntu
 X86_64_LINUX_URL="https://github.com/${USR_NAME}/${PKG_NAME}/releases/download/v${PKG_VERSION}/srm-v${PKG_VERSION}-x86_64_linux.tar.gz"
-X86_64_LINUX_SHA256SUM="f9e400c268c86d84a9e5ad8bb7bf0b4f131e70df700554f3d0ee1098ba8d3897"
+X86_64_LINUX_SHA256SUM="ac720a51ae8517d45253f227adfffc7bc9e4b9448f842bba08c6adde42617d93"
 
 # Macos
 MACOS_URL="https://github.com/${USR_NAME}/${PKG_NAME}/releases/download/v${PKG_VERSION}/srm-v${PKG_VERSION}-macos.tar.gz"
-MACOS_SHA256SUM="42cfcf040a8ceb276afb573df526f2039a9bd2ef87a21e150fc7a59f1b667079"
+MACOS_SHA256SUM="0e6d44e9923cd774d5fbeafecf3d28349e6804f677d4044391881bad691f92ed"
 
 # Raspberry pi zero (and others)
 ARMV6L_URL="https://github.com/${USR_NAME}/${PKG_NAME}/releases/download/v${PKG_VERSION}/srm-v${PKG_VERSION}-armv6l.tar.gz"
-ARMV6L_SHA256SUM="67aac8015108216b6981aec03cd55bf6c9bc9ad4426922020ca158f126178f67"
+ARMV6L_SHA256SUM="c52200929ab4b80a482252a9936e58f94db9233248ebc138723561d689428625"
 
 # Load the prefix
 . load_gpack ${PKG_NAME}
