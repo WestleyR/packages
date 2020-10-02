@@ -10,8 +10,6 @@ TARBALL="https://github.com/${USR_NAME}/${PKG_NAME}/archive/${PKG_VERSION}.tar.g
 
 UNTAR_DIR="${PKG_NAME}-*"
 
-# Load the prefix
-. load_gpack ${PKG_NAME}
-
-INSTALL_CMD="./configure --prefix ${gpack_prefix} --without-library && make install"
+BUILD_CMD="./configure --prefix /tmp --without-library && make"
+BUILD_BIN_FILES="ssum"
 

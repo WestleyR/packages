@@ -26,5 +26,8 @@ ARMV6L_SHA256SUM="144328d36b111a9c019d84a1a575089adbc03e273ae5431e06df58014b85e2
 # Load the prefix
 . load_gpack ${PKG_NAME}
 
-INSTALL_CMD="make install PREFIX=${gpack_prefix}"
+BUILD_CMD="make install PREFIX=${gpack_prefix}"
+BUILD_BIN_FILES="lf"
+
+BIN_FILES="bin/lf"
 
