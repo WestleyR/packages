@@ -17,7 +17,8 @@ UNTAR_DIR="${PKG_NAME}-*"
 # Load the prefix
 . load_gpack ${PKG_NAME}
 
-# The current Makefile does not support install, yet...
-# So we need to install it manually.
-INSTALL_CMD="make && mkdir -p ${gpack_prefix}/bin && cp -f imcat ${gpack_prefix}/bin"
+# Need to build manually since there is errors on macOS
+BUILD_CMD="gcc -Wall -o imcat imcat.c"
+
+BUILD_BIN_FILES="imcat"
 

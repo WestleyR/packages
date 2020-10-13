@@ -17,5 +17,6 @@ UNTAR_DIR="${PKG_NAME}-*"
 # Load the prefix
 . load_gpack ${PKG_NAME}
 
-INSTALL_CMD="make install PREFIX=${gpack_prefix}"
+BUILD_CMD="make"
+BUILD_BIN_FILES="clib clib-build clib-configure clib-init clib-install clib-search clib-update clib-upgrade"
 
