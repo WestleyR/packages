@@ -8,7 +8,13 @@ Note=This is a test message
 
 TarballURL=https://github.com/WestleyR/srm/releases/download/v2.0.0.a1/srm-v2.0.0.a1-macos.tar.gz
 SSUM=058e89d0
-
 BIN_FILES=srm/2.0.0.a1/bin/srm
 
-# vim: set syntax=ini
+[x86_64_linux]
+
+TarballURL=https://github.com/WestleyR/srm/releases/download/v2.0.0.a1/srm-v2.0.0.a1-x86_64_linux.tar.gz
+SSUM=9efbbaed
+BIN_FILES=srm/2.0.0.a1/bin/srm
+
+# This file is a .ini file without the extension
+# vim: syntax=dosini
