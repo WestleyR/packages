@@ -2,8 +2,6 @@ UserName=WestleyR
 Name=list-files
 Version=1.6.2
 
-Note=This is a test message
-
 [macOS]
 
 TarballURL=https://github.com/WestleyR/list-files/releases/download/v1.6.2/lf-v1.6.2-macos.tar.gz
@@ -15,6 +13,13 @@ BIN_FILES=list-files/1.6.2/bin/lf
 TarballURL=https://github.com/WestleyR/list-files/releases/download/v1.6.2/lf-v1.6.2-armv6l.tar.gz
 SSUM=88ba480d
 BIN_FILES=list-files/1.6.2/bin/lf
+
+[build]
+
+TarballURL=https://github.com/WestleyR/list-files/archive/v1.6.2.tar.gz
+SSUM=cc810f03
+BuildCmd=cd list-files-1.6.2 && make
+BIN_FILES=list-files-1.6.2/lf
 
 # This file is a .ini file without the extension
 # vim: syntax=dosini
