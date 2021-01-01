@@ -1,24 +1,13 @@
-#!/bin/sh
+UserName=stolk
+Name=imcat
+Version=master
 
-#
-# Please see: https://github.com/stolk/imcat for more details on this package.
-#
+[build]
 
-USR_NAME="stolk"
-PKG_NAME="imcat"
-NAME="imcat"
+TarballURL=https://github.com/stolk/imcat/archive/master.tar.gz
+SSUM=imcat-checksum
+BuildCmd=cd imcat-master && gcc -Wall -o imcat imcat.c
+BIN_FILES=imcat-master/imcat
 
-PKG_VERSION=`curl -s "https://api.github.com/repos/${USR_NAME}/${PKG_NAME}/commits/master" | get-json-value`
-
-TARBALL="https://github.com/${USR_NAME}/${PKG_NAME}/archive/${PKG_VERSION}.tar.gz"
-
-UNTAR_DIR="${PKG_NAME}-*"
-
-# Load the prefix
-. load_gpack ${PKG_NAME}
-
-# Need to build manually since there is errors on macOS
-BUILD_CMD="gcc -Wall -o imcat imcat.c"
-
-BUILD_BIN_FILES="imcat"
-
+# This file is a .ini file without the extension
+# vim: syntax=dosini
