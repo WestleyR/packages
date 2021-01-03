@@ -1,15 +1,13 @@
-#!/bin/sh
+UserName=WestleyR
+Name=ssum
+Version=master-3.0.0
 
-USR_NAME="WestleyR"
-PKG_NAME="ssum"
-NAME="ssum"
+[build]
 
-PKG_VERSION=`curl -s "https://api.github.com/repos/${USR_NAME}/${PKG_NAME}/commits/master" | get-json-value`
+TarballURL=https://github.com/WestleyR/ssum/archive/master.tar.gz
+SSUM=ssum-master
+BuildCmd=cd ssum-master && ./configure --without-library && make
+BIN_FILES=ssum-master/ssum
 
-TARBALL="https://github.com/${USR_NAME}/${PKG_NAME}/archive/${PKG_VERSION}.tar.gz"
-
-UNTAR_DIR="${PKG_NAME}-*"
-
-BUILD_CMD="./configure --prefix /tmp --without-library && make"
-BUILD_BIN_FILES="ssum"
-
+# This file is a .ini file without the extension
+# vim: syntax=dosini

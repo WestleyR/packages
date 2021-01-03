@@ -1,15 +1,13 @@
-#!/bin/sh
+UserName=WestleyR
+Name=cwd
+Version=1.0.0
 
-USR_NAME="WestleyR"
-PKG_NAME="cwd"
-NAME="cwd"
-PKG_VERSION="1.0.0"
+[build]
 
-SHA256SUM="97f0d41ec34755d9d3f40d9aeffa0b81af288200e7afabdfb278512e291f8b2f"
+TarballURL=https://github.com/WestleyR/cwd/archive/v1.0.0.tar.gz
+SSUM=00667f23
+BuildCmd=cd cwd-1.0.0 && make
+BIN_FILES=cwd-1.0.0/cwd
 
-TARBALL="https://github.com/${USR_NAME}/${PKG_NAME}/archive/v${PKG_VERSION}.tar.gz"
-UNTAR_DIR="${NAME}-${PKG_VERSION}"
-
-BUILD_CMD="make"
-BUILD_BIN_FILES="cwd"
-
+# This file is a .ini file without the extension
+# vim: syntax=dosini
