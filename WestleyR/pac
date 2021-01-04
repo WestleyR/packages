@@ -1,15 +1,13 @@
-#!/bin/sh
+UserName=WestleyR
+Name=pac
+Version=1.0.0
 
-USR_NAME="WestleyR"
-PKG_NAME="pac"
-NAME="pac"
-PKG_VERSION="1.0.0"
+[build]
 
-SHA256SUM="1b8e6857c2627396c4dc5a965c909a656bd2b1b9ef1a841ddcad1dc48abbec79"
+TarballURL=https://github.com/WestleyR/pac/archive/v1.0.0.tar.gz
+SSUM=a939b40a
+BuildCmd=cd pac-1.0.0 && make
+BIN_FILES=pac-1.0.0/pac
 
-TARBALL="https://github.com/${USR_NAME}/${PKG_NAME}/archive/v${PKG_VERSION}.tar.gz"
-UNTAR_DIR="${NAME}-${PKG_VERSION}"
-
-BUILD_CMD="make install PREFIX=${gpack_prefix}"
-BUILD_BIN_FILES="pac"
-
+# This file is a .ini file without the extension
+# vim: syntax=dosini
