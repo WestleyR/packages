@@ -1,2 +1,3 @@
 # packages
-Packages for gpack
+
+Packages for [gpack](https://github.com/WestleyR/gpack)
