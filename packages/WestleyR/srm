@@ -1,0 +1,27 @@
+UserName=WestleyR
+Name=srm
+Version=v2.0.0.a2
+
+Note=This is a test message
+
+[macOS]
+
+TarballURL=https://github.com/WestleyR/srm/releases/download/v2.0.0.a2/srm-v2.0.0.a2-macos.tar.gz
+SSUM=a593d342
+BIN_FILES=srm/2.0.0.a2/bin/srm
+
+[x86_64_linux]
+
+TarballURL=https://github.com/WestleyR/srm/releases/download/v2.0.0.a2/srm-v2.0.0.a2-x86_64_linux.tar.gz
+SSUM=e9f26ffe
+BIN_FILES=srm/2.0.0.a2/bin/srm
+
+[build]
+
+TarballURL=https://github.com/WestleyR/srm/archive/v2.0.0.a2.tar.gz
+SSUM=srm-checksum-TODO
+BuildCmd=cd srm-2.0.0.a2 && make
+BIN_FILES=srm-2.0.0.a2/srm
+
+# This file is a .ini file without the extension
+# vim: syntax=dosini

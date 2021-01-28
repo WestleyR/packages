@@ -1,0 +1,13 @@
+UserName=WestleyR
+Name=cwd
+Version=1.0.0
+
+[build]
+
+TarballURL=https://github.com/WestleyR/cwd/archive/v1.0.0.tar.gz
+SSUM=00667f23
+BuildCmd=cd cwd-1.0.0 && make
+BIN_FILES=cwd-1.0.0/cwd
+
+# This file is a .ini file without the extension
+# vim: syntax=dosini

@@ -1,0 +1,13 @@
+UserName=WestleyR
+Name=pac
+Version=1.0.0
+
+[build]
+
+TarballURL=https://github.com/WestleyR/pac/archive/v1.0.0.tar.gz
+SSUM=a939b40a
+BuildCmd=cd pac-1.0.0 && make
+BIN_FILES=pac-1.0.0/pac
+
+# This file is a .ini file without the extension
+# vim: syntax=dosini

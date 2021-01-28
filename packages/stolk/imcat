@@ -1,0 +1,13 @@
+UserName=stolk
+Name=imcat
+Version=master
+
+[build]
+
+TarballURL=https://github.com/stolk/imcat/archive/master.tar.gz
+SSUM=imcat-checksum
+BuildCmd=cd imcat-master && gcc -Wall -o imcat imcat.c
+BIN_FILES=imcat-master/imcat
+
+# This file is a .ini file without the extension
+# vim: syntax=dosini

@@ -1,0 +1,13 @@
+UserName=WestleyR
+Name=ssum
+Version=master-3.0.0
+
+[build]
+
+TarballURL=https://github.com/WestleyR/ssum/archive/master.tar.gz
+SSUM=ssum-master
+BuildCmd=cd ssum-master && ./configure --without-library && make
+BIN_FILES=ssum-master/ssum
+
+# This file is a .ini file without the extension
+# vim: syntax=dosini

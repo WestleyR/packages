@@ -1,0 +1,13 @@
+UserName=WestleyR
+Name=whereis
+Version=1.0.1
+
+[build]
+
+TarballURL=https://github.com/WestleyR/whereis/archive/v1.0.1.tar.gz
+SSUM=217b641f
+BuildCmd=cd whereis-1.0.1 && make
+BIN_FILES=whereis-1.0.1/whereis
+
+# This file is a .ini file without the extension
+# vim: syntax=dosini

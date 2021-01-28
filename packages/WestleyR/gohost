@@ -1,0 +1,13 @@
+UserName=WestleyR
+Name=gohost
+Version=main
+
+[build]
+
+TarballURL=https://github.com/WestleyR/gohost/archive/main.tar.gz
+SSUM=gohost-checksum
+BuildCmd=cd gohost-main && go build -o gohost
+BIN_FILES=gohost-main/gohost
+
+# This file is a .ini file without the extension
+# vim: syntax=dosini
