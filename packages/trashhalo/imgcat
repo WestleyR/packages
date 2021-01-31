@@ -1,0 +1,18 @@
+UserName=trashhalo
+Name=imgcat
+Version=v1.2.0
+
+[macOS]
+
+TarballURL=https://github.com/trashhalo/imgcat/releases/download/v1.2.0/imgcat_1.2.0_Darwin_x86_64.tar.gz
+SSUM=d42817e0
+BIN_FILES=imgcat
+
+[x86_64_linux]
+
+TarballURL=https://github.com/trashhalo/imgcat/releases/download/v1.2.0/imgcat_1.2.0_Linux_x86_64.tar.gz
+SSUM=imgcat-sha
+BIN_FILES=imgcat
+
+# This file is a .ini file without the extension
+# vim: syntax=dosini

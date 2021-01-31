@@ -1,27 +1,33 @@
 UserName=WestleyR
 Name=srm
-Version=v2.0.0.a2
+Version=v2.0.1
 
-Note=This is a test message
+Note=This software is still in develpment, please report any issues/suggestions to https://github.com/WestleyR/srm
 
 [macOS]
 
-TarballURL=https://github.com/WestleyR/srm/releases/download/v2.0.0.a2/srm-v2.0.0.a2-macos.tar.gz
-SSUM=a593d342
-BIN_FILES=srm/2.0.0.a2/bin/srm
+TarballURL=https://github.com/WestleyR/srm/releases/download/v2.0.1/srm-v2.0.1-macos.tar.gz
+SSUM=da37bb40
+BIN_FILES=srm/2.0.1/bin/srm
 
 [x86_64_linux]
 
-TarballURL=https://github.com/WestleyR/srm/releases/download/v2.0.0.a2/srm-v2.0.0.a2-x86_64_linux.tar.gz
-SSUM=e9f26ffe
-BIN_FILES=srm/2.0.0.a2/bin/srm
+TarballURL=https://github.com/WestleyR/srm/releases/download/v2.0.1/srm-v2.0.1-x86_64_linux.tar.gz
+SSUM=fd7be4a3
+BIN_FILES=srm/2.0.1/bin/srm
+
+[armv6l]
+
+TarballURL=https://github.com/WestleyR/srm/releases/download/v2.0.1/srm-v2.0.1-armv6l.tar.gz
+SSUM=12c55931
+BIN_FILES=srm/2.0.1/bin/srm
 
 [build]
 
-TarballURL=https://github.com/WestleyR/srm/archive/v2.0.0.a2.tar.gz
+TarballURL=https://github.com/WestleyR/srm/archive/v2.0.1.tar.gz
 SSUM=srm-checksum-TODO
-BuildCmd=cd srm-2.0.0.a2 && make
-BIN_FILES=srm-2.0.0.a2/srm
+BuildCmd=cd srm-2.0.1 && make
+BIN_FILES=srm-2.0.1/srm
 
 # This file is a .ini file without the extension
 # vim: syntax=dosini
